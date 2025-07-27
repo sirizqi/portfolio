@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;">
-  <h1 style="margin: 0;">siRizqi Portfolio Website</h1>
+  <h1 style="margin: 0;">siRizqi - Portfolio Website</h1>
   <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fweb-jarocki-me">
     <img src="https://vercel.com/button" alt="Deploy with Vercel">
   </a>
@@ -13,13 +13,11 @@
 
 [**🌐 Live Demo**](https://rizqisarasajati.com) | [**📚 Documentation**](#documentation)
 
-![Screenshot](screenshots/screenshot.png)
-
 ---
 
 ## Table of Contents
 
-- [Bartosz Jarocki - Personal Website ](#bartosz-jarocki---personal-website-)
+- [siRizqi - Personal Website ](#bartosz-jarocki---personal-website-)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Tech Stack](#tech-stack)
@@ -110,8 +108,8 @@ This project leverages modern web technologies for optimal performance and devel
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/BartoszJarocki/web-jarocki-me.git
-   cd web-jarocki-me
+   git clone https://github.com/sirizqi/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**
@@ -263,10 +261,10 @@ The application automatically generates Open Graph images for social media shari
 ### Examples
 
 **Homepage**
-![Homepage OG](https://jarocki.me/api/og?title=Bartosz%20Jarocki&description=A%20passionate%20software%20engineer%20with%20an%20eye%20for%20details%20based%20in%20Wroc%C5%82aw,%20Poland.)
+![Homepage OG]
 
 **Blog Post**
-![Blog Post OG](https://jarocki.me/api/og?title=Monito,%20two%20weeks%20after%20launch&description=No%20audience,%20just%20Product%20Hunt%20and%20Hacker%20News%20launch.%20How%20did%20it%20go?)
+![Blog Post OG]
 
 ### Customization
 
@@ -284,12 +282,6 @@ Edit `src/pages/api/og.tsx` to customize:
 We welcome contributions! Here's how you can help:
 
 ### Ways to Contribute
-
-- 🐛 **Bug Reports** - Found an issue? [Open a bug report](https://github.com/BartoszJarocki/web-jarocki-me/issues)
-- 💡 **Feature Requests** - Have an idea? [Suggest a feature](https://github.com/BartoszJarocki/web-jarocki-me/issues)
-- 🔧 **Code Contributions** - Submit a pull request
-- 📖 **Documentation** - Improve docs and guides
-- 🎨 **Design** - UI/UX improvements
 
 ### Development Workflow
 
@@ -381,7 +373,6 @@ yarn dev
 
 - 📖 [Next.js Documentation](https://nextjs.org/docs)
 - 🔗 [Notion API Docs](https://developers.notion.com/)
-- 💬 [Open an Issue](https://github.com/BartoszJarocki/web-jarocki-me/issues)
 
 ---
 
@@ -408,9 +399,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[⬆ Back to Top](#bartosz-jarocki---personal-website)**
+**[⬆ Back to Top]**
 
-Made with ❤️ by [Bartosz Jarocki](https://jarocki.me)
+Made with ❤️ by [siRizqi](https://rizqisarasajati.com)
 
 </div>
 # portfolio
