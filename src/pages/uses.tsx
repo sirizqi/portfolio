@@ -6,7 +6,7 @@ import { ToolsSection } from '../components/tools/ToolsSection';
 import { Tools } from '../data/lifeApi';
 
 const seoTitle = 'Uses';
-const seoDescription = 'Software I use, gadgets I love, and other things I recommend.';
+const seoDescription = 'Things That Make Work (and Life) Better';
 
 export default function Uses() {
   return (
@@ -24,8 +24,8 @@ export default function Uses() {
         }}
       />
       <PageLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="Here's a big list of all of my favorite stuff."
+        title="Things I Use and Like"
+        intro="From Gadget's to favorite apps. I’m that person who gets way too excited about the little things that make life (and work) better."
       >
         <div className="space-y-20">
           {Object.entries(Tools).map(([title, tools]) => (

@@ -2,25 +2,6 @@ import { ExternalLink } from '../components/ExternalLink';
 import { GitHubIcon } from '../components/icons/GitHubIcon';
 import { InstagramIcon } from '../components/icons/InstagramIcon';
 import { XIcon } from '../components/icons/XIcon';
-import AmbitLogo from '../images/logos/ambit.png';
-import BarepapersLogo from '../images/logos/barepapers.svg';
-import BimLogo from '../images/logos/bim.png';
-import CDGOLogo from '../images/logos/cdgo.png';
-import ClevertechLogo from '../images/logos/clevertech.png';
-import EvercastLogo from '../images/logos/evercast.svg';
-import Howdy from '../images/logos/howdy.png';
-import JarockiMeLogo from '../images/logos/jarocki.svg';
-import JojoMobileLogo from '../images/logos/jojomobile.png';
-import MonitoLogo from '../images/logos/monito.svg';
-import Consultly from '../images/logos/consultly.svg';
-import MobileVikingsLogo from '../images/logos/mv.png';
-import NSNLogo from '../images/logos/nsn.svg';
-import ParabolLogo from '../images/logos/parabol.svg';
-import TastyCloudLogo from '../images/logos/tastycloud.png';
-import YearProgressLogo from '../images/logos/yearprogress.svg';
-import Minimal from '../images/logos/minimal.svg';
-import FilmIoLogo from '../images/logos/filmio.jpg';
-import MotionLogo from '../images/logos/motion.svg';
 import { LinkedInIcon } from '../components/icons/LinkedInIcon';
 import KiriminAjaLogo from '../images/logos/kalogo.svg';
 import PandaAdvis from '../images/logos/pandaadvis.svg';
@@ -39,24 +20,30 @@ export const Name = 'Rizqi Sarasajati';
 
 export const About = (
   <>
-    {`A Product Manager with 10+ years of hands-on experience across tech, design, and education. I started out as a Back-End Developer, building POS, ERP, and HRIS systems. Later, I switched gears to become a multimedia & game dev teacher, even joining the jury panel for provincial competitions — because why not mix tech with education and impact?`}
-    {
-      `My journey didn’t stop there — I jumped into the world of UI/UX design, worked on multiple projects, and went full-time at one of Indonesia’s top hosting companies. Eventually, I found my sweet spot in product. Started as an Associate Product Manager, moved up to Technical Product Manager, and led a team of 10+ PMs building stuff like:`
-    }{''}<br/>
-    {`1. Shipping Aggregator`}<br/> 
-    {`2. Warehouse Systems`}<br/>
-    {`3. Virtual Debit Cards`}<br/>
-    {`4. WhatsApp AI & Ads Automation Tools`}<br/>
-    {`5. Talent Management & HR platforms`}<br/>
-    {`
-    Right now, I’m leading product at a B2B logistics aggregator, focusing on building solid core systems and driving business growth through smart integrations`}<br/>
-    {`
-    I speak business, design, and tech — and I bridge all three to make sure we’re not just building things right, but building the right things. Let’s build something awesome.`}
-    {' '}
-    <ExternalLink href="mailto:rizqisarasajati1109@gmail.com">Send me an email.</ExternalLink>
+    {`I'm a bit confused... all I know is how to code, design, and manage products 😅 If that’s what you’re looking for, don’t be shy — just hit me up!.`}
+    <ExternalLink href="mailto:rizqisarasajati1109@gmail.com"> Send me an email.</ExternalLink>
   </>
 );
-export const AboutExtended = `Currently i live in Yogyakarta, Indonesia now, having grown up in the small town of Banyumas in the Central Java Province. I Have a Bachelor's degree in Informatics from Amikom Purwokerto University. I like programming, designing, traveling, and spending time with my little family. I work as a Product Manager at KiriminAja, where I lead the development of logistics solutions that simplify shipping for businesses. My journey has taken me through various roles in software engineering, UI/UX design, and product management, allowing me to blend technical expertise with a user-centered approach to product development.`;
+export const AboutExtended = (
+<>
+  {
+    `Hi! I’m currently living in Yogyakarta, Indonesia — but my roots trace back to the cozy little town of Banyumas in Central Java 🌿`
+  },<br/>
+  {
+    `I hold a Bachelor's degree in Informatics from Amikom University Purwokerto, and I’ve always been passionate about building things — whether that’s through code, design, or product strategy.`
+  },<br/>
+  {
+    `Right now, I lead product development at KiriminAja, where I’m focused on creating smart logistics solutions that make shipping easier for businesses across Indonesia.`
+  },<br/>
+  {
+    `Over the years, I’ve worn multiple hats — from back-end software engineer and UI/UX designer to technical and associate product manager. This journey helped me shape a product mindset that blends tech know-how with empathy for users.`
+  },<br/>
+  {
+    `Outside of work, you’ll probably find me writing code for fun, sketching out design ideas, planning a quick getaway, or just enjoying precious moments with my little family ❤️`
+  }
+</>
+
+);
 
 export type Project = {
   title: string;
@@ -73,7 +60,7 @@ export const MyCurrentProjects: Project[] = [
   {
     title: 'KiriminAja',
     techStack: ['Vue', 'Nuxt', 'Firebase', 'Tailwind', 'MongoDB','API', 'Plugin', 'etc...'],
-    description: 'is a logistics aggregator platform that offers 15 courier shipping (Regular, Express, and Instant), real-time COD payout or COD Advance, free pick-up service, and online store integration in a single dashboard.',
+    description: 'It’s a one-stop logistics aggregator that hooks you up with 15 courier options — from Regular to Express to Instant. You also get real-time COD payouts (or even advances!), free pick-up service, and smooth online store integration — all from one simple dashboard.',
     logo: KiriminAjaLogo,
     link: {
       label: 'kiriminaja.com',
@@ -83,7 +70,7 @@ export const MyCurrentProjects: Project[] = [
   {
     title: 'Passion Japan',
     techStack: ['Alpine', 'Laravel', 'Livewire','etc...'],
-    description: 'is an online platform that offers Japanese language courses, career guidance, and job placement support for Indonesians aiming to study, intern, or work in Japan. Key services include e-learning, interview preparation, and job matching for programs like Tokutei Ginō and internships—all fully online.',
+    description: 'This online platform helps Indonesians learn Japanese, get career tips, and land internships or jobs in Japan — all without leaving your home! From interactive e-learning and interview prep to job matching for Tokutei Ginō and other cool programs, everything’s just a click away. Your Japan journey starts here! ✨',
     logo: PassionJapan,
     link: {
       label: 'passionjapan.com',
@@ -96,7 +83,7 @@ export const MyPastProjects: Project[] = [
   {
     title: 'RajaOngkir',
     techStack: ['VueJS', 'Angular', 'Golang', 'MongoDB', 'Xendit', 'Courier APIs', 'etc...'],
-    description: 'is a shipping API for Indonesia that enables cost estimation from multiple couriers, real-time package tracking, and support for both COD and non-COD deliveries. It helps businesses automate logistics processes by integrating courier services into their apps or platforms.',
+    description: 'A smart shipping API for Indonesia that lets you check shipping costs from multiple couriers, track packages in real-time, and handle both COD and non-COD deliveries. It’s built to help businesses simplify logistics by plugging courier services right into their apps or platforms — no more manual hassle!',
     logo: RajaOngkir,
     link: {
       label: 'rajaongkir.com',
@@ -106,7 +93,7 @@ export const MyPastProjects: Project[] = [
   {
     title: 'Aonia AI',
     techStack: ['VueJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'OpenAI', 'Xendit', 'etc...'],
-    description: 'is an end-to-end AI customer service platform that automates order taking, payment processing, and shipping via WhatsApp. AI agents record orders, accept payments, and handle delivery through an integrated dashboard with regular, express, and instant courier options—all in one seamless flow.',
+    description: 'It’s your all-in-one AI-powered customer service buddy on WhatsApp! From taking orders and processing payments to booking deliveries with regular, express, or instant couriers — everything’s fully automated. Orders go in, packages go out — all handled by smart AI agents through one seamless dashboard. No hassle, just flow. ✨',
     logo: AoniaAI,
     link: {
       label: 'aonia.ai',
@@ -117,7 +104,7 @@ export const MyPastProjects: Project[] = [
     title: 'Komship',
     techStack: ['VueJS', 'Mysql', 'Typescript', 'Kotlin', 'PHP', 'GraphQL', 'TailwindCSS', 'etc...'],
     description:
-      'is a logistics aggregator that helps online sellers manage COD and non-COD shipments with features like daily COD payout, shipping discounts, free pickup, real-time tracking, and ticket-based issue handling—all from one platform.',
+      'This all-in-one logistics platform helps you handle COD & non-COD orders like a pro — with daily COD payouts, real-time tracking, shipping discounts, free pickups, and an easy ticket system for any delivery issues. Just ship it and chill 😎',
     logo: Komship,
     link: {
       label: 'komship.id',
@@ -127,7 +114,7 @@ export const MyPastProjects: Project[] = [
   {
     title: 'Komads',
     techStack: ['VueJS', 'OpenAI', 'Golang', 'etc...'],
-    description: 'is a tool that lets businesses run Facebook ads that lead directly to WhatsApp. It offers AI-powered ad optimization, easy setup without a credit card, and a dashboard to track Click-to-WhatsApp performance and ad spend.',
+    description: 'This tool makes it super easy to launch Click-to-WhatsApp ads — no credit card needed. With AI-powered optimization and a dashboard to track results and ad spend, its your shortcut to better leads, faster chats, and smarter campaigns.',
     logo: KomAds,
     link: {
       label: 'komads.id',
@@ -424,84 +411,84 @@ export const Tools = {
     {
       title: 'Macbook Air M1 (13-inch, 2020), 8/256 GB SSD',
       description:
-        'I use this device for my regular job or freelance work when I am away from home. This device is capable of running all the tools related to my work to the fullest.',
-      href: 'https://amzn.to/3XkWxhF',
+        'Whether I’m working from a office, coffee shop, hopping on a quick freelance project, or just escaping my desk—this little beast handles all my work tools like a pro. No lags, no drama. Just pure productivity magic.',
+      href: 'https://tk.tokopedia.com/ZSSjX1ST3/',
     },
     {
       title: 'MSI Modern 14 C12M (12th Gen Intel Core i3, 8/512 GB SSD)',
       description:
-        'This laptop is my workstation when Im doing any work at home. Why do I use a laptop instead of a PC? Because, of course, using a PC would be too risky in terms of electricity costs 🥹',
-      href: 'https://amzn.to/3XkWxhF',
+        'This laptop’s my daily driver when I’m working from home. Why not a PC, you ask? Well… my wallet and the electricity bill had a serious talk 🥹 So yeah, laptop it is — powerful enough to get the job done, without turning my house into a mini power plant.',
+      href: 'https://tk.tokopedia.com/ZSSjCnVAq/',
     },
     {
-      title: 'AOC 27G2U5 (27-inch, 75Hz)',
+      title: ' AOC 27B2HM2 (27-inch, 100Hz)',
       description:
-        'I use this screen for multitasking at home. The wider screen and high color correction help me work to my full potential, and the high resolution helps me stay focused and comfortable.',
-      href: 'https://amzn.to/3NnMlAu',
+        'This screen’s my ride-or-die for multitasking at home. The wide display and juicy color accuracy? Total game-changer. High resolution keeps things crisp, my eyes happy, and my brain laser-focused (well, most of the time 😄).',
+      href: 'https://tk.tokopedia.com/ZSSjCW6cV/',
     },
     {
       title: 'Rexus Daxa M71 Classic Non Wirelless Mechanical Keyboard',
       description:
-      'This keyboard is a mechanical keyboard with a high noise level, which excites me and keeps me working with a clicky sound that keeps me focused. 🤣',
-      href: 'https://amzn.to/3qSUNQS',
+      'This mechanical keyboard is loud—like, really loud. But that’s exactly why I love it. Every click feels like a mini celebration of getting things done. That satisfying clack clack clack keeps my fingers dancing and my brain locked in. 🤣💥',
+      href: 'https://tk.tokopedia.com/ZSSjXm6sf/',
     },
     {
       title: 'S Tech HV.9 Wired Mouse',
-      description: "Honestly, this mouse has been with me for more than 7 years, and I am still comfortable with it. Since I only use a mouse at home for work, I won't be replacing this mouse anytime soon. ☺️",
-      href: 'https://amzn.to/3qXIvXl',
+      description: "Honestly, this mouse has been my sidekick for over 7 years—and it’s still going strong! As long as I’m working from home, this little legend isn’t going anywhere. Why fix what’s not broken, right? ☺️🧡",
+      href: 'https://tk.tokopedia.com/ZSSjXxTtB/',
     },
     {
       title: 'KZ ZSN Pro X In-Ear Monitor',
       description:
-        'This in-ear monitor has been with me for about 8 years, and it has proven to be unbeatable in its price range. Therefore, I will continue to use it for the foreseeable future until something better comes along.',
-      href: 'https://amzn.to/3pgETza',
+        'This in-ear monitor has been riding with me for almost 8 years—and still punches way above its price tag! As long as nothing better shows up, this trusty pair stays in my ears (and my heart). 🫶🔥',
+      href: 'https://tk.tokopedia.com/ZSSjXMV19/',
     },
     {
       title: 'KZ AZ09 Pro In-Ear Monitor',
       description:
-      'To maximize the use of my KZ ZSN Pro, I added a Bluetooth module that I can use without having to use cables, which is perfect for me to use outside the house.',
-      href: 'https://amzn.to/43UuA30',
+      'To squeeze the most out of my KZ ZSN Pro, I added a Bluetooth module—so now I can go wireless anytime I’m out and about. No more tangled mess, just pure audio bliss on the move! 🎶✨',
+      href: 'https://tk.tokopedia.com/ZSSjXaVue/',
     },
   ],
   Software: [
     {
       title: 'Azure DevOps',
-      description: `I use this software for managing the products I currently handle. It looks simple, but it turns out that this software has maximum capabilities that can be used by companies to plan or carry out the Software Development Life Cycle from start to finish.`,
+      description: `I use this software to manage the products I’m currently handling. It may look simple on the surface, but don’t let that fool you—it’s a beast when it comes to handling the entire Software Development Life Cycle (SDLC) from start to finish. Perfect for keeping everything on track and making life easier! 🚀📋`,
       href: 'https://azure.microsoft.com/en-us/products/devops',
     },
     {
       title: 'ClickUp',
-      description: `Wow, this is the tool I use for projects outside of my full-time job. With its comprehensive features, it can be used as an easy-to-use and highly informative project management tool that even those new to project management can easily utilize.`,
+      description: `Wow, this is the tool I rely on for managing my freelance or side hustle projects. It’s super intuitive and packed with features—perfect for keeping everything organized without making your head spin. Even if you're new to project management, this tool makes you feel like a pro! 💼✨🧩`,
       href: 'https://clickup.com/',
     },
     {
       title: 'Visual Studio Code',
-      description: `Every developer understands why these tools are always used. 🤣`,
+      description: `They're like the holy grail of getting things done—reliable, powerful, and somehow comforting (yes, even the occasional bugs feel familiar). If you know, you know. 😎💻⚙️`,
       href: 'https://code.visualstudio.com/',
     },
     {
       title: 'Figma',
-      description: `Perhaps there are others out there who use several tools for research, brainstorming, design, and other things related to development discovery. However, I only use this one tool, and I can utilize all of its features for the development discovery that I will be doing.`,
+      description: `Maybe some people use a bunch of different tools for research, brainstorming, design, and everything in between. But me? I keep it simple. Just this one tool, and I can do it all—research, ideation, validation, you name it. One tool to rule them all! 😎🛠️✨`,
       href: 'https://www.figma.com/',
     },
     {
       title: 'Eraser.io',
-      description: `When I'm feeling lazy or unmotivated, I usually use this tool to help me break down development requirements or systems that need to be developed.`,
+      description: `When I’m feeling lazy or just not in the mood to think too hard (yup, it happens 😅), I open up this tool. It helps me break down development requirements or systems like a pro—so I can look productive even when my brain’s still on standby mode. 😴⚙️🚀`,
       href: 'https://www.eraser.io/',
     },
     {
       title: 'Notion',
-      description: `For now, I use this tool as a database for my website, and for writing whatever I need for a project. 😋`,
+      description: `Right now, this tool is like my second brain 🧠—I use it as a database for my website and also as a space to jot down anything I need for a project. It's simple, clean, and keeps my chaos organized. 😋📚💻`,
       href: 'https://www.notion.so/',
     },
     {
       title: 'Adobe Illustrator',
-      description: `I still love doing graphic design! 🥵`,
+      description: `I still love doing graphic design, no matter how chaotic things get! 🎨🔥 It’s my little escape and creative playground—can't stop, won’t stop! 😤✨`,
       href: 'https://www.adobe.com/id_en/products/illustrator.html',
     },
     {
       title: 'ChatGPT',
-      description: `This tool helps me be more consistent in presenting data for development. Every sentence and every flow is assisted by this tool. Don't assume that people who use AI assistance are lazy! Hey, AI is there to help, not to replace us! 😇`,
+      description: `This tool keeps me sane when presenting data for development 😌📊 Every sentence, every flow—yup, it’s got my back. And hey, don’t assume folks who use AI are just being lazy! AI is here to assist, not replace us. Work smarter, not harder! 💪🤖`,
       href: 'https://chatgpt.com/',
     },
   ],

@@ -8,7 +8,7 @@ import { Note, notesApi } from '../../lib/notesApi';
 
 const seoTitle = 'Notes';
 const seoDescription =
-  'All of my thoughts on programming, building products, leadership, and more. Not structured.';
+  'All of my thoughts on programming, building products, design, and more. Not structured.';
 
 interface Props {
   notes: Note[];
@@ -27,8 +27,8 @@ export default function Notes({ notes, tags }: Props) {
         }}
       />
       <PageLayout
-        title="Notes on software, building products, and other stuff."
-        intro="All of my thoughts on programming, building products, leadership, travelling, whisky, and other random stuff. Not structured."
+        title="When I’ve got nothing to do..."
+        intro="I usually end up writing. Random thoughts, cool ideas, or just whatever’s on my mind 😄✍️"
       >
         <h3 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">Tags</h3>
         <div className="mt-4 flex max-w-xl flex-wrap gap-1 font-mono">

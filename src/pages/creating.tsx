@@ -25,11 +25,11 @@ export default function Creating() {
         }}
       />
       <PageLayout
-        title="Things I've made trying to put my dent in the universe."
-        intro="A list of projects I've worked on, I'm working on and I will work on."
+        title="Hmm… what have I created so far?"
+        intro="I’ve built quite a few things, but let me show you the ones that really made users go: “Whoa, this helps a lot!”"
       >
         <h2 className="text-2xl font-bold tracking-tight">Now</h2>
-        <p className="mt-2 text-base">Projects I currently work on.</p>
+        <p className="mt-2 text-base">These are the products and projects I’m currently building (a lot of fun and a bit of chaos 😄).</p>
         <ul
           role="list"
           className="mt-12 grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
@@ -48,8 +48,7 @@ export default function Creating() {
 
         <h2 className="mt-24 text-2xl font-bold tracking-tight">Past</h2>
         <p className="mt-2 text-base">
-          Projects I worked on. Due to nature of internet businesses not all of them are still
-          online.
+          Stuff I’ve finished (yep, they made it past the to-do list 😎)
         </p>
         <ul
           role="list"

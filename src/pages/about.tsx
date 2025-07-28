@@ -22,7 +22,7 @@ import {
 } from '../data/lifeApi';
 
 const seoTitle = `About`;
-const seoDescription = `A few words about me.`;
+const seoDescription = `A few words about me and my personal life.`;
 
 export default function AboutMe() {
   const randomQuote = useMemo(() => Quotes[Math.floor(Math.random() * Quotes.length)], []);
@@ -68,24 +68,23 @@ export default function AboutMe() {
             </div>
 
             <Section>
-              <Section.Title as="h2">Work</Section.Title>
+              <Section.Title as="h2">Things I’ve Built, Led, and Learned From</Section.Title>
               <Section.Content>
-                I'm a Product Manager with over 10 years of experience in Product Development. I started my career as a Software Engineer (BackEnd), then transitioned into roles such as Teacher, UI/UX Designer, Associate Product Manager, Technical Product Manager, and ultimately chose Product Manager as my primary career path. I have a passion for building products that solve real-world problems and improve people's lives. I believe in the power of collaboration and communication to create successful products.
+                Hi! I’m a Product Manager with 10+ years of experience in building meaningful digital products. My journey started as a Back-End Software Engineer, then took a few exciting turns — from being a Teacher, UI/UX Designer, Associate Product Manager, to Technical Product Manager — before fully committing to what I love most: building impactful products as a Product Manager. I’m passionate about solving real-world problems through tech, and I genuinely believe that great products are built through strong collaboration and clear communication.
                 <br />
-                <br />I created multiple Applications from scratch for companies around the
-                world like{' '}
+                <br />Along the way, I’ve helped companies across the globe build applications from the ground up — tools that not only work but truly help people in their everyday lives.{' '}
                 <ExternalLink href={'https://kiriminaja.com'}>KiriminAja</ExternalLink>,{' '}
                 <ExternalLink href={'https://aonia.ai'}>Aonia AI</ExternalLink>,{' '}
                 <ExternalLink href={'https://passionjapan.com'}>PassionJapan</ExternalLink>,{' '}
                 <ExternalLink href={'https://rajaongkir.com/api'}>RajaOngkir</ExternalLink>,{' '}
                 <ExternalLink href={'https://komship.id'}>Komship</ExternalLink> or{' '}
-                <ExternalLink href={'https://komads.id'}>KomAds</ExternalLink>. I
-                also had led development teams many times. If you&apos;d like to work with me,{' '}
-                <ExternalLink href="mailto:rizqisarasajati1109@gmail.com">just email me.</ExternalLink>
+                <ExternalLink href={'https://komads.id'}>KomAds</ExternalLink>. I’ve led dev teams more times than I’ve had coffee spills during stand-ups (which is a lot 😅).
+If you think we’d vibe well or wanna build something cool together, don’t be shy.{' '}
+                <ExternalLink href="mailto:rizqisarasajati1109@gmail.com">Let&#39;s chat!</ExternalLink>
               </Section.Content>
             </Section>
             <Section>
-              <Section.Title as="h2">Books worth re-reading</Section.Title>
+              <Section.Title as="h2">Books That Keep Pulling Me Back (Like a Bookworm Magnet 🧲)</Section.Title>
               <Section.Content>
                 <ul className="mt-1 list-disc list-inside">
                   {Books.map((book) => (
@@ -97,7 +96,7 @@ export default function AboutMe() {
               </Section.Content>
             </Section>
             <Section>
-              <Section.Title as="h2">Podcasts I listen to</Section.Title>
+              <Section.Title as="h2">Pods That Power My Brain ☕️🎙️</Section.Title>
               <Section.Content>
                 <ul className="mt-1 list-disc list-inside">
                   {Podcasts.map((podcast) => (
@@ -109,7 +108,7 @@ export default function AboutMe() {
               </Section.Content>
             </Section>
             <Section>
-              <Section.Title as="h2">Blogs I read</Section.Title>
+              <Section.Title as="h2">Brain Snacks I Can’t Resist 🧠🍪</Section.Title>
               <Section.Content>
                 <ul className="mt-1 list-disc list-inside">
                   {Blogs.map((blog) => (
@@ -121,7 +120,7 @@ export default function AboutMe() {
               </Section.Content>
             </Section>
             <Section>
-              <Section.Title as="h2">Videos worth watching</Section.Title>
+              <Section.Title as="h2">Videos That Stole My Attention (and My Time 😅)</Section.Title>
               <Section.Content>
                 <ul className="mt-1 list-disc list-inside">
                   {VideosWorthWatching.map((video) => (
@@ -133,7 +132,7 @@ export default function AboutMe() {
               </Section.Content>
             </Section>
             <Section>
-              <Section.Title as="h2">Quote worth thinking about</Section.Title>
+              <Section.Title as="h2">Tiny Text, Heavy Meaning 🧠💬</Section.Title>
               <Section.Content>
                 <div className="mt-8">
                   <Quote quote={randomQuote.content} author={randomQuote.author} />
