@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rizqisarasajati.com
+
+# Sitemaps
+Sitemap: https://rizqisarasajati.com/sitemap.xml
